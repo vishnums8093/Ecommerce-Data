@@ -1,0 +1,2 @@
+-- SQL script for data cleaning
+-- Replace with your queries
