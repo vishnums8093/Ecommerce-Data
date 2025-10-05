@@ -1,4 +1,6 @@
--- **Data Cleaning**
+-- =====================================================
+-- Data Cleaning
+-- =====================================================
 
 --The following SQL queries were used for cleaning the dataset, ensuring quality and consistency.
 
