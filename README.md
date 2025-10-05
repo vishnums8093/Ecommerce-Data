@@ -24,11 +24,11 @@ The analysis utilizes an Online Retail Sales Dataset sourced from Kaggle (fully 
 The analysis focuses on **Sales**, **Profit**, comparison against **Sales Targets**, and **Customer Profitability**.
 
 ### 📊 Key Insights
-📈 Growth & Volatility: Sales show strong growth, peaking at ₹61.4K in Jan 2019, but the trend is highly volatile (e.g., a 63% jump into January, followed by a 38% drop).
-🎯 Target Misses: Targets are consistently missed overall due to underperformance in Clothing and Furniture; Electronics is the only consistently high performer.
-💰 Profit Drivers: Printers and Bookcases drove the largest total profits, while Tables and Electronic Games were confirmed as loss-making categories.
-👥 Top Customer: Seema emerged as the most valuable customer, generating nearly ₹2,000 in total profit.
-🌍 Geographic Strategy: Pune and Indore are the most profitable cities, while Chennai and Ahmedabad are loss-making markets requiring urgent intervention.
+1. Sales show strong growth, peaking at ₹61.4K in Jan 2019, but the trend is highly volatile (e.g., a 63% jump into January, followed by a 38% drop).
+2. Targets are consistently missed overall due to underperformance in Clothing and Furniture; Electronics is the only consistently high      performer.
+3. Printers and Bookcases drove the largest total profits, while Tables and Electronic Games were confirmed as loss-making categories.
+4. Seema emerged as the most valuable customer, generating nearly ₹2,000 in total profit.
+5. Pune and Indore are the most profitable cities, while Chennai and Ahmedabad are loss-making markets requiring urgent intervention.
 
 ---
 
@@ -60,7 +60,7 @@ The repository is organized to separate the analytical code from the documentati
 This project followed a standard data analysis pipeline:
 
 1.  **Data Ingestion:** The raw e-commerce data was loaded into a dedicated dataset in **Google BigQuery**.
-2.  **Data Cleaning & Transformation:** SQL scripts were used to handle missing values, correct data types, and normalize product/customer names.
-3.  **Data Analysis:** Final analytical SQL queries were executed to answer the business questions, generating optimized views for visualization.
-4.  **Data Visualization:** **Tableau Public** was then used to connect to these local CSV files to build the interactive sales and profitability dashboard, ensuring the visualization was based on the finalized, clean data.
+2.  **Data Cleaning & Transformation:** SQL scripts were used to handle missing values, correct data types, and normalize product/            customer names.
+3.  **Data Analysis:** Final analytical SQL queries were executed to answer the business questions, generating optimized views for            visualization.
+4.  **Data Visualization:** **Tableau Public** was then used to connect to these local CSV files to build the interactive sales and           profitability dashboard, ensuring the visualization was based on the finalized, clean data.
 ---
